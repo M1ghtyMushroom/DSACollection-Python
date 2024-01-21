@@ -1,4 +1,3 @@
-# Jan 20, 2024
 # from Node import Node
 # first = Node(5) # the end of the list
 # second = Node(6, first)
@@ -14,16 +13,23 @@
 # x.displayReverse()
 # print(x.isEmpty())
 # ================================ #
-from Queue import Queue
+# from Queue import Queue
+# x = Queue()
+# x.enqueue(1)
+# x.enqueue(3)
+# x.enqueue(5)
+# print(x.peek())
+# x.dequeue()
+# print(x.peek())
+# x.display()
+# ================================ #
+from Stack import Stack
 
-x = Queue()
-x.enqueue(1)
-x.enqueue(3)
-x.enqueue(5)
-print(x.peek())
+x = Stack()
 
-x.dequeue()
-
-print(x.peek())
-
+x.push("Omar")
+x.push("top?")
+x.display()
+print("\n=============")
+x.pop()
 x.display()
