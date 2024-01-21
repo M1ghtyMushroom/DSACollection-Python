@@ -27,7 +27,7 @@ class Stack():
         return
     return self.top.value
 
-  def is_empty(self):
+  def isEmpty(self):
       return self.length == 0
 
   def display(self):
