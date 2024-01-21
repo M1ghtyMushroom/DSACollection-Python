@@ -14,7 +14,7 @@ class Stack():
       self.top = newNode
     self.length += 1
     
-  def pop(self):
+  def pop(self): # removes the top element and returns it
     if self.length == 0:
         return
     popped = self.top.value

@@ -23,9 +23,21 @@
 # print(x.peek())
 # x.display()
 # ================================ #
-from Stack import Stack
+# from Stack import Stack
+# x = Stack()
+# x.pop()
+# x.display()
+# ================================ #
+from HashMap import HashMap
 
-x = Stack()
+x = HashMap() # default size is 10, you can change it by passing a size to the constructor
+x.set('name', 'omar')
+x.set('age', 20)
+x.set('name', 'ali')
 
-x.pop()
-x.display()
+print(x.get('name'))
+print(x.get('age'))
+
+x.delete('name')
+
+print(x.get('name'))
