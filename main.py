@@ -27,9 +27,5 @@ from Stack import Stack
 
 x = Stack()
 
-x.push("Omar")
-x.push("top?")
-x.display()
-print("\n=============")
 x.pop()
 x.display()
