@@ -4,17 +4,6 @@ class Node :
     self.next = next
     self.prev = prev
 
-  def getValue(self) :
-    return self.value
-
-  def getNext(self) :
-    return self.next
-  
-  def setValue(self, value) :
-    self.value = value
-
-  def setNext(self, next) :
-    self.next = next
-
   def __str__ (self) :
     return str(self.value)
+  
