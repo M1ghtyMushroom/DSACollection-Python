@@ -4,15 +4,15 @@
 # second = Node(6, first)
 # print(second.getNext())
 # ================================ #
-from LinkedList import LinkedList
+from DoublyLinkedList import DoublyLinkedList
 
-x = LinkedList()
+x = DoublyLinkedList()
 
 x.append(1)
 x.append(2)
 x.append(3)
 
-x.update(1, "BOMB")
-x.delete(2)
-
+x.delete(0)
 x.display()
+# x.displayReverse()
+print(x.isEmpty())
