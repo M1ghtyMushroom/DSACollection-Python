@@ -28,16 +28,23 @@
 # x.pop()
 # x.display()
 # ================================ #
-from HashMap import HashMap
+# from HashMap import HashMap
+# x = HashMap() # default size is 10, you can change it by passing a size to the constructor
+# x.set('name', 'omar')
+# x.set('age', 20)
+# x.set('name', 'ali')
+# print(x.get('name'))
+# print(x.get('age'))
+# x.delete('name')
+# print(x.get('name'))
+# ================================ #
+from LinkedBST import LinkedBST
 
-x = HashMap() # default size is 10, you can change it by passing a size to the constructor
-x.set('name', 'omar')
-x.set('age', 20)
-x.set('name', 'ali')
+x = LinkedBST()
+x.insert(5)
+x.insert(3)
+x.insert(7)
+x.insert(2)
+x.insert(4)
 
-print(x.get('name'))
-print(x.get('age'))
-
-x.delete('name')
-
-print(x.get('name'))
+x.view()
